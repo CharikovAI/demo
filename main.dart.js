@@ -71651,7 +71651,7 @@ $.y.toString
 return new N.ID(1/q.guu(q),1/(0.05*p))})
 s($,"aAR","ano",function(){return P.amW(0.78)/P.amW(0.9)})
 s($,"aCT","aos",function(){return!H.Z("z<o>").b(H.a([],t.Y))})
-s($,"aDB","f2",function(){var q="adddress/"
+s($,"aDB","f2",function(){var q="address/"
 return P.aF(["polygon",E.adX(4,1.5,137,"",3,q,"https://polygonscan.com/",0,2,"Polygon Mainnet",2.5,5,"https://polygon-rpc.com/",0.5,1,"MATIC",3.5),"polygon-testnet",E.adX(4,1.5,80001,"0xA8985E70A2fE2814198Ed305fb0D8e6EbD76f8f2",3,q,"https://mumbai.polygonscan.com/",0,2,"Mumbai Polygon Testnet",2.5,5,"https://rpc-mumbai.maticvigil.com/",0.5,1,"MATIC",3.5),"tagbond",E.adX(4,1.5,4501,"0x5b1a71b73ade74525efa8096c2a9048a96db76aa",3,"account/","https://explorer.tagbond.net/",0,2,"Tagbond Mainnet",2.5,5,"https://rpc.tagbond.net/",0.5,1,"TAG",3.5)],t.N,H.Z("BV"))})})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
