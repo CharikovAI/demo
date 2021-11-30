@@ -17528,8 +17528,8 @@ a4q:function a4q(a,b){this.a=a
 this.b=b},
 a4M:function a4M(a,b){this.a=a
 this.b=b},
-a4u:function a4u(){},
-a4v:function a4v(a){this.a=a},
+a4u:function a4u(a){this.a=a},
+a4v:function a4v(){},
 a4w:function a4w(a){this.a=a},
 a4t:function a4t(a){this.a=a},
 a4E:function a4E(a){this.a=a},
@@ -66030,43 +66030,47 @@ T.a4q.prototype={
 $0(){this.a.Q=this.b},
 $S:0}
 T.a4M.prototype={
-$3(a,b,c){var s,r,q,p,o,n,m,l,k,j=null,i="col-12 col-sm-12 col-md-12 col-lg-4",h=T.acM(a,b),g=(U.eg()===C.D||U.eg()===C.G)&&Z.em()==null,f=t.p
-if(g)g=new T.ar(C.E5,T.cw(H.a([B.vS(C.xj,new T.a4u(),j),C.Px,C.wV,D.DP(C.Lt,new T.a4v(this.b),D.aer(j,j,j,j,j,j,j,j,j,j,j,C.aq,j,j,j,j,j,j,j))],f),C.v,C.dy,C.r),j)
-else{g=T.agI(a)
-s=this.a
-r=t.z
-r=B.f8(new T.ar(C.ew,T.BD("Token details",T.cw(H.a([T.Dm(s.d,"Choose a name for your token","Eg. My Awesome Token",!0,new T.a4w(s),"Your token name *",r),C.bR,T.Dm(s.e,"Choose a symbol for your token (usually 3-5 chars).","Eg. MAT",!0,new T.a4E(s),"Token symbol*",r),C.bR,T.Dm(s.f,"Insert the decimal precision of your token. If you don't know what to insert, use 18.",j,s.gdl().f,j,"Token decimals*",r),C.bR,T.Dm(s.r,"Insert the initial number of tokens available. Will be put in your account.",j,s.gdl().r,j,"Initial supply*",r),C.bR,T.Dm(s.x,"Insert the maximum number of tokens available.",j,s.gdl().x,j,"Total supply*",r)],f),C.v,C.H,C.r)),j),i)
-q=t.s
-p=t.fo
-o=p.j("bh.E")
-n=t.N
-m=T.Dl(P.at(new H.aG(H.a([s.gdl().c],q),new T.a4F(),p),!0,o),"10k, Fixed, Capped, Unlimited",!1,j,"Supply type",s.gdl().c,n)
-l=T.Dl(P.at(new H.aG(H.a([s.gdl().d],q),new T.a4G(),p),!0,o),"None, Ownable, Role based",!1,j,"Access type",s.gdl().d,n)
-k=T.Dl(P.at(new H.aG(H.a([s.gdl().e],q),new T.a4H(),p),!0,o),"Unstoppable, Pausable",!1,j,"Transfer type",s.gdl().e,n)
-s.gdl()
-k=B.f8(T.cw(H.a([new T.ar(C.ew,T.BD("Token features",T.cw(H.a([m,C.bR,l,C.bR,k,C.Lu,new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4I(),!0),C.PG],f),C.v,C.H,C.r),j),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4J(),s.gdl().z),C.xi],f),C.v,C.H,C.r),j),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4K(),s.gdl().Q),C.xh],f),C.v,C.H,C.r),j),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4L(),s.gdl().ch),C.xg],f),C.v,C.H,C.r),j),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4x(),s.gdl().cx),C.xf],f),C.v,C.H,C.r),j)],f),C.v,C.H,C.r)),j)],f),C.v,C.H,C.r),i)
-l=s.ch
-m=l==null?H.e(H.n("_tokenModelDropdownList")):l
-m=T.Dl(m,j,!0,s.ga2l(),"Token type *",s.gdl(),t.Le)
-l=b.a
-q=l==="tagbond"?P.at(new H.aG(H.a([l],q),new T.a4y(),p),!0,o):P.at(new H.aG(H.a([l.split("-")[0],H.d(b.a.split("-")[0])+"-testnet"],q),new T.a4z(),p),!0,o)
-p=b.a
-n=T.Dl(q,j,!0,new T.a4A(b),"Network *",p,n)
-q=T.BD("Token type and network",T.cw(H.a([m,C.bR,T.cw(H.a([n,p.split("-").length>1?M.bx(j,C.JE,j,j,new S.bW(C.Iu.h(0,50),j,j,C.bA,j,j,C.O),j,j,j,j):C.Lv],f),C.bo,C.H,C.r)],f),C.v,C.H,C.r))
-o=s.y
-n=N.xA(j)
-n.aW=new T.a4B(a)
-n=T.BD("Agreement",T.c_(H.a([new K.tF(o,new T.a4C(s),C.aq,j),new T.oI(1,C.hQ,T.a0m(j,j,C.bl,!0,j,Q.ho(H.a([C.M7,Q.ho(j,n,C.xb,"Terms of Use.")],t.Ne),j,j,j),C.a9,j,j,1,C.az),j)],f),C.v,C.H,C.r))
-p=t.w
-o=T.c_(H.a([T.a5l(C.bT,H.a([C.Ph,S.afD(C.ld,a.O(p).f.a.a>991?new V.ai(a.O(p).f.a.a*0.55,0,a.O(p).f.a.a*0.1,0):C.aR,"Commission will be transferred directly to us through the network as part of your payment. Commission will support ERC20 Token Generator to keep it safe, running and constantly updated.")],f),C.jv,C.m),M.bx(j,new T.ar(C.dh,L.bC(C.d.i(s.gdl().cy)+" "+$.f3().h(0,b.a).c,j,j,j,C.b5,j,j),j),j,j,C.yp,j,j,j,j)],f),C.v,C.ax,C.r)
-p=T.BD("Transaction",T.cw(H.a([o,C.aJ,T.c_(H.a([T.a5l(C.bT,H.a([C.PK,S.afD(C.ld,a.O(p).f.a.a>991?new V.ai(a.O(p).f.a.a*0.55,0,a.O(p).f.a.a*0.1,0):C.aR,"It depends on Gas Limit and on current Gas price average. MetaMask will suggest both. Do not decrease Gas Limit to avoid transaction to fail. If you want, you can decrease Gas Price but your transaction could remain pending for minutes/hours. Failed transaction can't be refunded.")],f),C.jv,C.m),M.bx(j,C.JC,j,j,C.yr,j,j,j,j)],f),C.v,C.ax,C.r)],f),C.v,C.H,C.r))
-s=s.z?new T.a4D(s,a,b):j
-f=E.HN(T.cw(H.a([g,B.lD(H.a([r,k,B.f8(T.cw(H.a([new T.ar(C.ew,q,j),C.iU,n,C.iU,p,C.iU,D.DP(C.Lx,s,D.aer(j,j,j,j,j,j,j,j,j,j,j,C.aq,j,j,j,j,j,j,j))],f),C.v,C.H,C.r),i)],f),j),T.ad_(a,b)],f),C.v,C.H,C.r))
-g=f}return M.Hq(h,g)},
+$3(a,b,c){var s,r,q,p,o,n,m,l,k,j,i=null,h="col-12 col-sm-12 col-md-12 col-lg-4",g=T.acM(a,b),f=(U.eg()===C.D||U.eg()===C.G)&&Z.em()==null,e=t.p
+if(f)f=new T.ar(C.E5,T.cw(H.a([C.Px,C.wV,D.DP(C.Lt,new T.a4u(this.b),D.aer(i,i,i,i,i,i,i,i,i,i,i,C.aq,i,i,i,i,i,i,i))],e),C.v,C.dy,C.r),i)
+else{f=B.vS(C.xj,new T.a4v(),i)
+s=T.agI(a)
+r=this.a
+q=t.z
+q=B.f8(new T.ar(C.ew,T.BD("Token details",T.cw(H.a([T.Dm(r.d,"Choose a name for your token","Eg. My Awesome Token",!0,new T.a4w(r),"Your token name *",q),C.bR,T.Dm(r.e,"Choose a symbol for your token (usually 3-5 chars).","Eg. MAT",!0,new T.a4E(r),"Token symbol*",q),C.bR,T.Dm(r.f,"Insert the decimal precision of your token. If you don't know what to insert, use 18.",i,r.gdl().f,i,"Token decimals*",q),C.bR,T.Dm(r.r,"Insert the initial number of tokens available. Will be put in your account.",i,r.gdl().r,i,"Initial supply*",q),C.bR,T.Dm(r.x,"Insert the maximum number of tokens available.",i,r.gdl().x,i,"Total supply*",q)],e),C.v,C.H,C.r)),i),h)
+p=t.s
+o=t.fo
+n=o.j("bh.E")
+m=t.N
+l=T.Dl(P.at(new H.aG(H.a([r.gdl().c],p),new T.a4F(),o),!0,n),"10k, Fixed, Capped, Unlimited",!1,i,"Supply type",r.gdl().c,m)
+k=T.Dl(P.at(new H.aG(H.a([r.gdl().d],p),new T.a4G(),o),!0,n),"None, Ownable, Role based",!1,i,"Access type",r.gdl().d,m)
+j=T.Dl(P.at(new H.aG(H.a([r.gdl().e],p),new T.a4H(),o),!0,n),"Unstoppable, Pausable",!1,i,"Transfer type",r.gdl().e,m)
+r.gdl()
+j=B.f8(T.cw(H.a([new T.ar(C.ew,T.BD("Token features",T.cw(H.a([l,C.bR,k,C.bR,j,C.Lu,new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4I(),!0),C.PG],e),C.v,C.H,C.r),i),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4J(),r.gdl().z),C.xi],e),C.v,C.H,C.r),i),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4K(),r.gdl().Q),C.xh],e),C.v,C.H,C.r),i),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4L(),r.gdl().ch),C.xg],e),C.v,C.H,C.r),i),new T.ar(C.dj,T.c_(H.a([N.Il(C.aq,new T.a4x(),r.gdl().cx),C.xf],e),C.v,C.H,C.r),i)],e),C.v,C.H,C.r)),i)],e),C.v,C.H,C.r),h)
+k=r.ch
+l=k==null?H.e(H.n("_tokenModelDropdownList")):k
+l=T.Dl(l,i,!0,r.ga2l(),"Token type *",r.gdl(),t.Le)
+k=b.a
+p=k==="tagbond"?P.at(new H.aG(H.a([k],p),new T.a4y(),o),!0,n):P.at(new H.aG(H.a([k.split("-")[0],H.d(b.a.split("-")[0])+"-testnet"],p),new T.a4z(),o),!0,n)
+o=b.a
+m=T.Dl(p,i,!0,new T.a4A(b),"Network *",o,m)
+p=T.BD("Token type and network",T.cw(H.a([l,C.bR,T.cw(H.a([m,o.split("-").length>1?M.bx(i,C.JE,i,i,new S.bW(C.Iu.h(0,50),i,i,C.bA,i,i,C.O),i,i,i,i):C.Lv],e),C.bo,C.H,C.r)],e),C.v,C.H,C.r))
+n=r.y
+m=N.xA(i)
+m.aW=new T.a4B(a)
+m=T.BD("Agreement",T.c_(H.a([new K.tF(n,new T.a4C(r),C.aq,i),new T.oI(1,C.hQ,T.a0m(i,i,C.bl,!0,i,Q.ho(H.a([C.M7,Q.ho(i,m,C.xb,"Terms of Use.")],t.Ne),i,i,i),C.a9,i,i,1,C.az),i)],e),C.v,C.H,C.r))
+o=t.w
+n=T.c_(H.a([T.a5l(C.bT,H.a([C.Ph,S.afD(C.ld,a.O(o).f.a.a>991?new V.ai(a.O(o).f.a.a*0.55,0,a.O(o).f.a.a*0.1,0):C.aR,"Commission will be transferred directly to us through the network as part of your payment. Commission will support ERC20 Token Generator to keep it safe, running and constantly updated.")],e),C.jv,C.m),M.bx(i,new T.ar(C.dh,L.bC(C.d.i(r.gdl().cy)+" "+$.f3().h(0,b.a).c,i,i,i,C.b5,i,i),i),i,i,C.yp,i,i,i,i)],e),C.v,C.ax,C.r)
+o=T.BD("Transaction",T.cw(H.a([n,C.aJ,T.c_(H.a([T.a5l(C.bT,H.a([C.PK,S.afD(C.ld,a.O(o).f.a.a>991?new V.ai(a.O(o).f.a.a*0.55,0,a.O(o).f.a.a*0.1,0):C.aR,"It depends on Gas Limit and on current Gas price average. MetaMask will suggest both. Do not decrease Gas Limit to avoid transaction to fail. If you want, you can decrease Gas Price but your transaction could remain pending for minutes/hours. Failed transaction can't be refunded.")],e),C.jv,C.m),M.bx(i,C.JC,i,i,C.yr,i,i,i,i)],e),C.v,C.ax,C.r)],e),C.v,C.H,C.r))
+r=r.z?new T.a4D(r,a,b):i
+e=E.HN(T.cw(H.a([f,s,B.lD(H.a([q,j,B.f8(T.cw(H.a([new T.ar(C.ew,p,i),C.iU,m,C.iU,o,C.iU,D.DP(C.Lx,r,D.aer(i,i,i,i,i,i,i,i,i,i,i,C.aq,i,i,i,i,i,i,i))],e),C.v,C.H,C.r),h)],e),i),T.ad_(a,b)],e),C.v,C.H,C.r))
+f=e}return M.Hq(g,f)},
 $C:"$3",
 $R:3,
 $S:39}
 T.a4u.prototype={
+$0(){C.ar.Ck(window,"https://metamask.app.link/dapp/"+this.a,"tab")},
+$S:0}
+T.a4v.prototype={
 $0(){var s=0,r=P.a1(t.H)
 var $async$$0=P.Y(function(a,b){if(a===1)return P.Z(b,r)
 while(true)switch(s){case 0:s=2
@@ -66074,9 +66078,6 @@ return P.a6(Z.em().P7("0x551475f7116B2E8d908188b4E3808456f076c016",18,"T"),$asyn
 case 2:return P.a_(null,r)}})
 return P.a0($async$$0,r)},
 $S:30}
-T.a4v.prototype={
-$0(){C.ar.Ck(window,"https://metamask.app.link/dapp/"+this.a,"tab")},
-$S:0}
 T.a4w.prototype={
 $1(a){var s=this.a
 s.aD(new T.a4t(s))},
